@@ -11,15 +11,15 @@ def main():
 
     concepto = input("¿Qué concepto deseas estudiar? > ")
 
-    print("\n📚 Buscando referencias...")
+    print("\nBuscando referencias...")
     resultado_rag = rag.run(concepto)
-    print(f"\n🔍 Fragmento relevante:\n{resultado_rag}")
+    print(f"\nFragmento relevante:\n{resultado_rag}")
 
-    print("\n🧠 Explicación del Tutor:")
+    print("\nExplicación del Tutor:")
     explicacion = tutor.run({"concepto": concepto})
     print(explicacion)
 
-    print("\n✏️ Ejercicio propuesto:")
+    print("\nEjercicio propuesto:")
     ejercicio = ejercicios.run({"tema": concepto})
     print(ejercicio)
 

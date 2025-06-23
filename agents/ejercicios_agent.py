@@ -4,6 +4,7 @@ from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
 from langchain_community.chat_models import ChatOllama
 
+# Este agente genera ejercicios prácticos sobre un tema específico.
 def get_ejercicios_agent():
     prompt = PromptTemplate(
         input_variables=["tema"],
