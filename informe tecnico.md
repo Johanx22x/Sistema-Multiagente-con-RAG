@@ -92,7 +92,7 @@ Se realizó un video de demostración que incluye:
   - Explicación del tutor.
   - Ejercicio con solución.
 
-[Enlace al video]()
+[Enlace al video](https://drive.google.com/file/d/1ImTa59773SeVTd6HDpzSg7cyBCdQeQ6c/view?usp=sharing)
 
 ## Organización del código y documentación
 
